@@ -1,25 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import TitleComponents from './Components/TitleComponents';
+import ComponentsLogin from './Components/ComponentsLogin';
 
 function App() {
+    
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+  <>
+    
+    <ComponentsLogin />
+  
+    </>)
+    }
+
+
 
 export default App;
+
+
+
+
+
+/*function App() {
+  const ciudad = "tome"
+  const edad = "26"
+  return (
+  <>
+    <h1>Jean cisterna</h1>
+    <TitleComponents ciudad= {ciudad} edad={edad} />
+  
+    
+    </>)
+    }
+
+
+
+export default App;*/
